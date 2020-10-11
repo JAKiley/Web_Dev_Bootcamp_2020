@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+<!-- Action - where the form sends data to -->
+<!-- medhtod - what HTTP method (get/post) -->
+<!-- blank defaults to action on this page and method is get -->
+<!-- name add the data entered to url.  This is called a query string -->
+   <!-- Also will pass this query string with the get request -->
+
+<!-- Works but not good for visually impared -->
+<!--    <form action="http:/www.wikipedia.org">
+   	<label>User Name:
+   		<input type="text" placeholder="username" name="username">
+   	</label>
+
+   	<label>Password:
+   		<input type="password" placeholder="password" name="password">
+   	</label>
+
+   	<input type="Submit">
+   </form> -->
+
+<!-- Required can be just Required or can be Required="true".  Required defaults to true -->
+   <form action="http:/www.wikipedia.org">
+
+   	<label for="user">Email:</label>
+   	<input id="user"  type="Email" placeholder="username" name="username" required="true">
+   	
+   	<label for="Pass">Password:</label>
+   	<input id="Pass" type="password" placeholder="password" name="password" required>
+   	
+   	<input type="Submit">
+   </form>
+
+</body>
+</html>

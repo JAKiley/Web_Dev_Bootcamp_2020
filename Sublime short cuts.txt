@@ -1,0 +1,7 @@
+Save new doc as HTML and type HTML then tab - fills in boiler plate
+
+Ctl / comment
+Ctl L selects whole line
+Edit multiple lines with same entry - Ctrl on each line then start typing
+
+misc text type <lorem
